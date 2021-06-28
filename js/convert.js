@@ -1,0 +1,5 @@
+function convert(number) {
+    return 0
+}
+
+module.exports = convert
