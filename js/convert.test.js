@@ -8,4 +8,8 @@ describe('This program test the convert function, which returns decimal numbers 
     it('should convert the decimal number 9 to its binary value', () => {
         expect(convert(9)).toBe('1001')
     })
+
+    it('should convert the decimal number 598 to its binary value', () => {
+        expect(convert(598)).toBe('1001010110')
+    })
 })
